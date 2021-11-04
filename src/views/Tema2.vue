@@ -14,9 +14,13 @@
       .col-8.col-lg-5.bg-color4
         img(src='@/assets/curso/img3.svg', style="width: 50px; position: relative; top: -40px; left: 20px;")
         p Se trata de comprender el funcionamiento de una organización u objeto de estudio desde una perspectiva holística e integradora, en donde lo importante son las relaciones entre los componentes. Se llama holismo al punto de vista que se interesa más por el todo que por la suma de las partes. El enfoque sistémico no concibe la posibilidad de explicar un elemento si no es precisamente en su relación con el todo. Metodológicamente, por tanto, el enfoque sistémico es lo opuesto al individualismo metodológico, aunque esto no implique necesariamente que estén en contradicción.
-        p.text-center #[span (Centro Tic Junta de Andalucía, 2021).]
+        .row
+          .col-12.d-inline-flex.justify-content-center.align-items-center
+            p.text-center.mb-0 #[span (Centro Tic Junta de Andalucía, 2021).]
+            .cuadro
       .col-7.col-lg-5.bg-color5
         .titulo-sexto.color-acento-contenido
+          h5 Figura 1
           p.mb-0 Interrelación con el todo
         figure
           img(src='@/assets/curso/img2.svg', style="width: 350px").m-auto

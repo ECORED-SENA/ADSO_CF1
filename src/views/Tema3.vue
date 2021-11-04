@@ -29,13 +29,14 @@
                         p.text-small Para conocer un poco más sobre el padre de la Teoría general de sistemas, consulte el siguiente video
                       .col-sm-auto
                         a.boton.color-acento-contenido.texto-blanco(href="https://www.youtube.com/watch?v=lCm24yPH4Eo" target="_blank")
-                          span Ver
-                          i.fas.fa-link
+                          span #[b(style="color:#000000 !important") Ver]
+                          i.fas.fa-link(style="color:#000000 !important")
         .row.align-items-center.mt-4
           .col-lg-6.mb-4.mb-lg-0
             p.mb-0 Tales sistemas se caracterizan por su capacidad de recepción de elementos los cuales son denominados como entradas, a su vez se pueden tipificar como tipos de energía, información a manera de mensajes, datos y señales también recursos físicos. Estas entradas se someten a un conjunto de actividades que alimentan una serie de acciones que las transforman y como consecuencia se generan unos resultados o salidas; una situación muy interesante se presenta cuando una salida o parte de ella se convierte nuevamente en entrada cuando esto sucede se dice que existe retroalimentación. La retroalimentación ayuda a elevar el grado de perfeccionamiento en las respuestas y en el propio comportamiento del sistema logrando de manera inmediata altos niveles de control, principio básico de la automatización de estos.
           .col-lg-6
             .titulo-sexto.color-acento-contenido
+              h5 Figura 2
               p.mb-0 La retroalimentación
             figure(data-aos="fade-left")
               img(src='@/assets/curso/img5.svg', style="width: 550px").m-auto
@@ -44,6 +45,7 @@
         p.mb-0 Así mismo, cuando de un subsistema se conocen solo las entradas y las salidas pero no las actividades internas se dice que es una caja negra en ese caso se aconseja utilizar la observación y guiarse por el sentido común para proponer las actividades desde cero que resuelven el mismo problema.
       .col-lg-6
         .titulo-sexto.color-acento-contenido
+          h5 Figura 3
           p.mb-0 Ejemplo de los elementos del sistema
         figure(data-aos="fade-left")
           img(src='@/assets/curso/img6.svg', style="width: 550px").m-auto
@@ -54,6 +56,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
+          h5 Figura 4
           p.mb-0 Definiciones de sistemas
         figure(data-aos="fade-right")
           img(src='@/assets/curso/img7.svg', style="width: 950px").m-auto
@@ -78,7 +81,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-5.mb-4.mb-lg-0
             h3 De la naturaleza, artificiales y mixtos
-            p Cuando un sistema está inmerso o corresponde únicamente al funcionamiento de la naturaleza, como lo es un lago, un río, la selva, el cuerpo humano, los planetas  o las galaxias, entonces hay que referirse a ellos como sistemas naturales. Por el contrario, los sistemas artificiales son aquellos que emergen de la creación del hombre es decir como productos de la acción humana; dentro de este tipo de sistema podemos encontrar los construidos por el hombre aviones, trenes, maquinarias  de transformación de las energías incluso de transformación de la información tangibles e intangibles. .
+            p Cuando un sistema está inmerso o corresponde únicamente al funcionamiento de la naturaleza, como lo es un lago, un río, la selva, el cuerpo humano, los planetas  o las galaxias, entonces hay que referirse a ellos como sistemas naturales. Por el contrario, los sistemas artificiales son aquellos que emergen de la creación del hombre es decir como productos de la acción humana; dentro de este tipo de sistema podemos encontrar los construidos por el hombre aviones, trenes, maquinarias  de transformación de las energías incluso de transformación de la información tangibles e intangibles.
             p.mb-0 Los sistemas mixtos se dan por la combinación de elementos naturales y artificiales. Cualquier entorno de orden físico que sufre alteraciones dadas por el ser humano, como lo son los pueblos, las ciudades, los ríos en donde se construyen represas, es considerado un sistema mixto; el grado de participación de elementos naturales y artificiales varía en cada caso concreto en proporciones diferentes.
           .col-lg-5
             figure
@@ -109,7 +112,10 @@
             img(src='@/assets/curso/img3.svg', style="width: 50px; position: relative; top: -40px; left: 20px;")
             p.text-center #[span La definición de dato]
             p Un dato no es otra cosa que una representación simbólica de alguna situación o suceso, sin ningún sentido semántico, describiendo un hecho concreto. O lo que es lo mismo, sin transmitir mensaje ninguno, un ejemplo de dato podría ser una letra o un hecho.
-            p.mb-5 #[span Según Deusto (2019)]
+            .row.mb-5
+              .col-12.d-inline-flex.justify-content-center.align-items-center
+                p.mb-0 #[span Según Deusto (2019)]
+                .cuadro
         img(src='@/assets/curso/img13.svg').img-style
       .col-lg-6(data-aos="fade-left")
         .row
@@ -117,7 +123,10 @@
             img(src='@/assets/curso/img3.svg', style="width: 50px; position: relative; top: -40px; left: 20px;")
             p.text-center #[span La definición de Información]
             p La información se define como un conjunto de datos los cuales son adecuadamente procesados, para que de esta manera, puedan proveer un mensaje que contribuya a la toma de decisiones a la hora de resolver un problema o afrontar una situación cualquiera en la que se requiera de la toma de decisiones de cualquier tipo.
-            p.mb-4 #[span Según Deusto (2019)]
+            .row.mb-4
+              .col-12.d-inline-flex.justify-content-center.align-items-center
+                p.mb-0 #[span Según Deusto (2019)]
+                .cuadro
         img(src='@/assets/curso/img14.svg').img-style
 
 </template>

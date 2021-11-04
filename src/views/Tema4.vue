@@ -51,6 +51,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
+          h5 Figura 5
           p.mb-0 Acciones para el análisis
         figure(data-aos="fade-left")
           img(src='@/assets/curso/img16.svg', style="width: 550px").m-auto
@@ -106,6 +107,7 @@
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido
+          h5 Figura 6
           p.mb-0 Pasos a tener en cuenta
         figure(data-aos="fade-left")
           img(src='@/assets/curso/img18.svg', style="width: 850px").m-auto
@@ -150,7 +152,7 @@
       .col-lg-6.d-flex(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/img20.svg' alt='AvatarTop')
+            img(src='@/assets/curso/img22.svg' alt='AvatarTop')
           .tarjeta.color-acento-botones
             .p-4
               p Los trabajadores de otras áreas que cuentan con la actual experiencia y que desean conocer las mejoras que se llevarán a cabo.
@@ -403,6 +405,7 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido
+          h5 Tabla 1
           p.mb-0 Sistema de compras en línea
         .tabla-b.color-acento-contenido.mb-5
           table
